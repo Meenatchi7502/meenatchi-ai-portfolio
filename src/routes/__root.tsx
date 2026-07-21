@@ -96,6 +96,39 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { rel: "preconnect", href: "https://fonts.gstatic.com", crossOrigin: "anonymous" },
       { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;600&display=swap" },
     ],
+    scripts: [
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "Person",
+          name: "Meenatchi Sundaram K",
+          jobTitle: "AI / ML Engineer",
+          url: "https://meenatchi-ai-portfolio.lovable.app",
+          sameAs: [
+            "https://www.linkedin.com/in/meenatchi-sundaram-k/",
+            "https://github.com/meenatchi-sundaram",
+          ],
+          knowsAbout: [
+            "Generative AI",
+            "Large Language Models",
+            "Agentic AI",
+            "Retrieval-Augmented Generation",
+            "Prompt Engineering",
+            "Machine Learning",
+          ],
+        }),
+      },
+      {
+        type: "application/ld+json",
+        children: JSON.stringify({
+          "@context": "https://schema.org",
+          "@type": "WebSite",
+          name: "Meenatchi Sundaram K — AI / ML Engineer Portfolio",
+          url: "https://meenatchi-ai-portfolio.lovable.app",
+        }),
+      },
+    ],
   }),
   shellComponent: RootShell,
   component: RootComponent,
