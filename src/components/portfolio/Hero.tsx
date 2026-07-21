@@ -1,6 +1,7 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { ArrowRight, Download, Mail } from "lucide-react";
+import resumeAsset from "@/assets/Meenatchi_Sundaram_Resume.pdf.asset.json";
 
 const roles = ["AI Engineer", "GenAI Developer", "LLM Engineer", "Agentic AI Engineer", "Python Developer"];
 
@@ -119,7 +120,7 @@ export default function Hero() {
             <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
           </a>
           <a
-            href="/Meenatchi_Sundaram_Resume.pdf"
+            href={resumeAsset.url}
             download
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full glass glass-hover text-foreground font-medium"
           >
