@@ -79,6 +79,9 @@ export default function Hero() {
         >
           <span className="block">MEENATCHI</span>
           <span className="block text-gradient">SUNDARAM K</span>
+          <span className="block text-2xl sm:text-3xl md:text-4xl font-semibold tracking-tight text-muted-foreground mt-4">
+            AI / ML Engineer
+          </span>
         </motion.h1>
 
         <motion.div
