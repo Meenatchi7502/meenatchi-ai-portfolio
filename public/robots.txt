@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://meenatchi-ai-portfolio.lovable.app/sitemap.xml
