@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 import { ArrowRight, Download, Mail } from "lucide-react";
-import resumeAsset from "@/assets/Meenatchi_Sundaram_Resume.pdf.asset.json";
 
 const roles = ["AI Engineer", "GenAI Developer", "LLM Engineer", "Agentic AI Engineer", "Python Developer"];
 
