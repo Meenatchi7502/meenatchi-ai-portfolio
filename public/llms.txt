@@ -1,0 +1,7 @@
+# Meenatchi Sundaram K — AI / ML Engineer Portfolio
+
+> Portfolio of Meenatchi Sundaram K, an AI / ML Engineer specializing in Generative AI, LLMs, Agentic AI, RAG systems, and production ML pipelines.
+
+## Pages
+
+- [Home](/): Hero, about, skills, experience, projects, achievements, and contact information.
