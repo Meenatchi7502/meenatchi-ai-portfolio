@@ -122,7 +122,7 @@ export default function Hero() {
             <ArrowRight className="h-4 w-4 group-hover:translate-x-1 transition-transform" />
           </a>
           <a
-            href={resumeAsset.url}
+            href="/Meenatchi_Sundaram_Resume.pdf"
             download
             className="inline-flex items-center gap-2 px-6 py-3 rounded-full glass glass-hover text-foreground font-medium"
           >
