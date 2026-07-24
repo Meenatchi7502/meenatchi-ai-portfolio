@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { ArrowRight, Download, Mail } from "lucide-react";
-import profileAsset from "@/assets/meenatchi-profile.jpg.asset.json";
+import { ArrowRight, Download, Mail, Github, Linkedin } from "lucide-react";
 
 const roles = ["AI Engineer", "GenAI Developer", "LLM Engineer", "Agentic AI Engineer", "Python Developer"];
 
@@ -138,6 +137,24 @@ export default function Hero() {
             <Mail className="h-4 w-4" />
             Hire Me
           </a>
+          <a
+            href="https://github.com/Meenatchi7502"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="GitHub"
+            className="inline-flex items-center justify-center h-11 w-11 rounded-full glass glass-hover text-foreground"
+          >
+            <Github className="h-4 w-4" />
+          </a>
+          <a
+            href="https://linkedin.com/in/meenatchi-sundaram953457188"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn"
+            className="inline-flex items-center justify-center h-11 w-11 rounded-full glass glass-hover text-foreground"
+          >
+            <Linkedin className="h-4 w-4" />
+          </a>
         </motion.div>
         </div>
 
@@ -198,7 +215,7 @@ export default function Hero() {
               <div className="relative rounded-full p-[3px] glass">
                 <div className="relative rounded-full overflow-hidden w-[260px] h-[260px] sm:w-[320px] sm:h-[320px] lg:w-[380px] lg:h-[380px] ring-1 ring-white/10">
                   <img
-                    src={profileAsset.url}
+                    src="/meenatchi-profile.jpg"
                     alt="Meenatchi Sundaram K — AI / ML Engineer"
                     loading="eager"
                     decoding="async"
