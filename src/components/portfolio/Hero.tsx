@@ -1,7 +1,6 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
-import { ArrowRight, Download, Mail } from "lucide-react";
-import profileAsset from "@/assets/meenatchi-profile.jpg.asset.json";
+import { ArrowRight, Download, Mail, Github, Linkedin } from "lucide-react";
 
 const roles = ["AI Engineer", "GenAI Developer", "LLM Engineer", "Agentic AI Engineer", "Python Developer"];
 
@@ -198,7 +197,7 @@ export default function Hero() {
               <div className="relative rounded-full p-[3px] glass">
                 <div className="relative rounded-full overflow-hidden w-[260px] h-[260px] sm:w-[320px] sm:h-[320px] lg:w-[380px] lg:h-[380px] ring-1 ring-white/10">
                   <img
-                    src={profileAsset.url}
+                    src="/meenatchi-profile.jpg"
                     alt="Meenatchi Sundaram K — AI / ML Engineer"
                     loading="eager"
                     decoding="async"
